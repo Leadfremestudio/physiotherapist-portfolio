@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jithesh V Nair | Sports Physiotherapist</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Setup Tailwind theme -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        orange: {
+                            600: '#ea580c',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-slate-900 antialiased overflow-x-hidden">
+    <!-- Navigation Bar -->
+    <nav class="fixed w-full z-50 bg-[#d1dce5] py-5 px-6 md:px-12 flex justify-between items-center text-slate-800 border-none">
+        <div class="flex items-center space-x-3">
+            <div class="font-bold text-lg md:text-xl tracking-tight text-slate-900">JITHESH V NAIR</div>
+        </div>
+        <div class="hidden md:flex space-x-8">
+            <a href="#" class="text-sm font-bold text-slate-600 hover:text-slate-900 transition-colors">Home</a>
+            <a href="#about" class="text-sm font-bold text-slate-600 hover:text-slate-900 transition-colors">About</a>
+            <a href="#contact" class="text-sm font-bold text-slate-600 hover:text-slate-900 transition-colors">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-[#f4f5f6] pt-32 pb-16">
+        <div class="mx-auto px-10 md:px-12">
+            <!-- Text and Button row -->
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-8">
+                <div class="flex-1 pr-4">
+                    <h1 class="text-5xl md:text-7xl text-slate-900 mb-4 leading-tight">
+                        Dr.Jithesh V Nair
+                    </h1>
+                    <p class="text-xl md:text-2xl text-slate-700 max-w-2xl">
+                        Specialized in musculoskeletal & sports physiotherapy
+                    </p>
+                </div>
+                <!-- Button -->
+                <div class="shrink-0 mb-3">
+                    <a href="#contact" class="inline-block bg-[#cfdce5] text-slate-900 px-8 py-3.5 rounded-[2rem] border border-slate-400 hover:bg-slate-300 transition-colors duration-300 text-sm font-bold tracking-wide uppercase shadow-sm">
+                        Book an Appointment
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Video Column -->
+            <div class="w-full relative" id="video-wrapper">
+                <video id="hero-video" src="assets/hero-banner.webm" autoplay loop muted playsinline class="w-full h-[500px] md:h-[600px] object-cover rounded-[3.5rem] shadow-sm transform-gpu origin-center" style="will-change: transform, border-radius;"></video>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Therapist / Certificate Showcase -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <!-- Image Column -->
+            <div class="order-2 lg:order-1 relative group overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800&h=1000" alt="Jithesh V Nair Portrait" class="w-full h-[500px] object-cover grayscale group-hover:grayscale-0 transition-all duration-500 shadow-2xl">
+            </div>
+            <!-- Bio & Certificates Column -->
+            <div class="order-1 lg:order-2 flex flex-col justify-center">
+                <h2 class="text-5xl font-black uppercase text-slate-900 tracking-tighter athlete-font">Global Expertise.<br>Elite Recovery.</h2>
+                <div class="w-16 h-1 bg-orange-600 mt-6 mb-8"></div>
+                <p class="text-gray-600 leading-relaxed text-lg mb-8">
+                    With extensive training across the globe, Jithesh V Nair brings elite, evidence-based sports physiotherapy to every patient. Dedicated to optimizing physical performance, managing complex musculoskeletal conditions, and facilitating rapid, sustainable recovery for athletes mapping their way to ultimate fitness and wellness.
+                </p>
+                <div class="flex flex-wrap gap-3 mt-8">
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">MPT (Ortho)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">PGD Sports Therapy</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">FOR (Apollo)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">FSS (Apollo)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">CDNP (South Africa)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">Ergonomics (Sweden)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">COMT (UK)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">IASTM (UK)</span>
+                    <span class="px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold uppercase tracking-widest rounded-sm">Fascial Manipulation (Italy)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Treatments Grid Section -->
+    <section id="treatments" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            <div class="text-center">
+                <h2 class="text-4xl font-black uppercase athlete-font">Specialized Treatments</h2>
+                <div class="w-16 h-1 bg-orange-600 mx-auto mt-6"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 text-left">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <svg class="w-10 h-10 text-orange-600 mb-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <h3 class="text-xl font-bold uppercase mb-3 athlete-font">Sports Therapy & Training</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Comprehensive rehabilitation protocols focused on returning athletes to peak performance levels safely and efficiently.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <svg class="w-10 h-10 text-orange-600 mb-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+                    <h3 class="text-xl font-bold uppercase mb-3 athlete-font">Orthopedic Manual Therapy (COMT)</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Advanced hands-on techniques designed to diagnose and treat soft tissue and joint structures to modulate pain and improve range of motion.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <svg class="w-10 h-10 text-orange-600 mb-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5"></path></svg>
+                    <h3 class="text-xl font-bold uppercase mb-3 athlete-font">Fascial Manipulation (Stecco)</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">A targeted biomechanical method to identify and resolve specific localized areas of deep fascia density causing pain or dysfunction.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <svg class="w-10 h-10 text-orange-600 mb-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+                    <h3 class="text-xl font-bold uppercase mb-3 athlete-font">Dry Needling</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">A specialized clinical treatment involving fine needles to deactivate muscular trigger points, relieving deep muscular pain.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <svg class="w-10 h-10 text-orange-600 mb-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                    <h3 class="text-xl font-bold uppercase mb-3 athlete-font">IASTM</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Instrument-Assisted Soft Tissue Mobilization utilizing precise ergonomic tools to effectively break down fascial restrictions.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group">
+                    <svg class="w-10 h-10 text-orange-600 mb-6 group-hover:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <h3 class="text-xl font-bold uppercase mb-3 athlete-font">Ergonomic Interventions</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Workplace and lifestyle assessments designed specifically to optimize posture, prevent repetitive stress, and enhance performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credentials Section -->
+    <section id="credentials" class="bg-slate-900 text-white py-24">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div class="flex flex-col justify-center">
+                <h2 class="text-5xl font-black uppercase text-white tracking-tighter athlete-font">Credentials & Expertise</h2>
+                <div class="w-16 h-1 bg-orange-600 mt-6 mb-8"></div>
+                <p class="text-gray-400 leading-relaxed text-lg max-w-lg mb-8">
+                    Driven by clinical excellence, Jithesh V Nair's qualifications represent an international standard of care in advanced musculoskeletal and sports physiotherapy.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">MPT (Ortho)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">P.G. Dip. in Sports Therapy & Training (PGDSST)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">Fellowship in Ortho. Rehab (FOR) (Apollo)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">Fellowship in Sports Sciences (FSS) (Apollo)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">Certified Dry Needling Practitioner CDNP (South Africa)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">Certificate in Ergonomics (Sweden)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">Certificate in Orthopedic Manual Therapy COMT (UK)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors">
+                    <div>
+                        <div class="font-bold text-sm">Certificate in IASTM (UK)</div>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3 p-4 bg-slate-800/50 border-l-4 border-orange-600 hover:bg-slate-800 transition-colors md:col-span-2">
+                    <div>
+                        <div class="font-bold text-sm">Fascial Manipulation Practitioner FM (Stecco, Italy)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Final CTA -->
+    <footer id="contact" class="bg-orange-600 text-white py-20 text-center flex flex-col items-center justify-center space-y-8 px-6">
+        <h2 class="text-5xl font-black uppercase athlete-font tracking-tight">Ready to get back in the game?</h2>
+        <a href="mailto:contact@jitheshvnair.com" class="bg-slate-900 text-white px-10 py-5 uppercase tracking-widest font-bold hover:bg-white hover:text-slate-900 transition-colors duration-300 rounded-none text-sm border-2 border-transparent hover:border-slate-900 border-none">
+            Schedule a Consultation
+        </a>
+        <div class="mt-12 text-sm text-white/80 font-medium">
+            &copy; 2026 Jithesh V Nair. All Rights Reserved. Reg.No: L-13948 • MIAP
+        </div>
+    </footer>
+
+    <!-- GSAP Setup -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

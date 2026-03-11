@@ -1,0 +1,3 @@
+body, h1, h2, h3, h4, h5, h6, .athlete-font { font-family: 'Questrial', sans-serif; }
+/* Add smooth scroll */
+html { scroll-behavior: smooth; }
